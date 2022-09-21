@@ -23,7 +23,7 @@ const Weather = () => {
         <div className = 'search'>
              <input className='input' type= 'search' onChange = {(event) =>{
               setSearch(event.target.value)
-             }} />
+             }} placeholder = "Search city" />
         </div>
         { !city ? (
           <p>Not Found</p>
